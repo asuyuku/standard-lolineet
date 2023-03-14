@@ -1,0 +1,23 @@
+[
+  {
+  "name": "ghwl.swagger.enabled",
+    "type": "boolean",
+    "label": "是否开启Swagger",
+    "description": "是否开启Swagger",
+    "defaultValue": true
+  },
+  {
+    "name": "ghwl.swagger.service-name",
+    "type": "string",
+    "label": "服务名称",
+    "description": "服务名称",
+    "defaultValue": "ghwl服务"
+  },
+  {
+    "name": "ghwl.swagger.package-name",
+    "type": "string",
+    "label": "包名",
+    "description": "包名",
+    "defaultValue": "com.ghwl.standard"
+  }
+]

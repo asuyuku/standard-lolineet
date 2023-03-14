@@ -1,0 +1,28 @@
+#server:
+#  port: 8080
+#spring:
+#  cloud:
+#    nacos:
+#      username: nacos
+#      password: nacos
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#        namespace: public
+#        ip: 10.52.15.100
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        namespace: public
+#        name: gateway-service
+#        file-extension: yaml
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      routes:
+#        - id: 课程服务
+#          uri: lb://course-service
+#          predicates:
+#            - Path=/course-service/**
+#  application:
+#    name: gateway-service
+#

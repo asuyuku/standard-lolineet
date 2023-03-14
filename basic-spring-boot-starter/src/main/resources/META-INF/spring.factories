@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration= \
+    com.lolineet.standard.starter.swagger.SwaggerAutoConfiguration, \
+    com.lolineet.standard.starter.exception.LolineetExceptionHandler

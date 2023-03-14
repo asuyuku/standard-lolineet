@@ -1,0 +1,21 @@
+#server:
+#  port: 8081
+#spring:
+#  cloud:
+#    nacos:
+#      username: nacos
+#      password: nacos
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#        namespace: public
+#        ip: 10.52.15.100
+#  application:
+#    name: course-service
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+#ghwl:
+#  swagger:
+#    enabled: true
+#    service-name: 授权服务
+#    package-name: com.ghwl.standard
